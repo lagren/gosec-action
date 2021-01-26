@@ -1,0 +1,14 @@
+{
+  "name": "gosec-action",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "Foo",
+  "scripts": {
+    "build": "ncc build index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/tool-cache": "^1.6.1",
+    "@zeit/ncc": "^0.22.3"
+  }
+}
