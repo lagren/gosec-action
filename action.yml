@@ -9,6 +9,10 @@ inputs:
     description: 'Directory to run gosec from'
     required: false
     default: '.'
+  args:
+    description: 'Arguments sent to gosec'
+    required: false
+    default: './...'
 runs:
   using: 'node12'
   main: './dist/index.js'

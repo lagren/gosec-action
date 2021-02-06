@@ -68,7 +68,11 @@ async function run() {
     // };
     options.cwd = core.getInput("working-directory");
 
-    const code = await exec.exec("gosec", ['./...'], options)
+    const argString = core.getInput("args")
+
+    const args = argString.split(" ")
+
+    const code = await exec.exec("gosec", args, options)
 
     // console.log(code)
 
