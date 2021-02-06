@@ -21,3 +21,4 @@ jobs:
         with:
           version: 2.6.1
           working-directory: example/bad
+        continue-on-error: true
