@@ -1,0 +1,14 @@
+name: 'gosec-action'
+description: 'Runs securego/gosec as a'
+inputs:
+  version:
+    description: 'Version of gosec to use'
+    required: false
+    default: '2.6.1'
+  working-directory:
+    description: 'Directory to run gosec from'
+    required: false
+    default: '.'
+runs:
+  using: 'node12'
+  main: './dist/index.js'
