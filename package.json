@@ -2,7 +2,7 @@
   "name": "gosec-action",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "Foo",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "ncc build index.js",
     "test": "jest"
